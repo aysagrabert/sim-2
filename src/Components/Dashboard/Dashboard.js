@@ -3,6 +3,13 @@ import House from '../House/House'
 import {Link} from 'react-router-dom'
 
 class Dashboard extends Component{
+    constructor(){
+        super();
+        
+    }
+
+
+
     render(){
         return(
             <div className='dashboard'>
