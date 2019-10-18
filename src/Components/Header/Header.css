@@ -1,6 +1,25 @@
-.header {
+.header{
     height: 10vh;
     width: 100%;
     background-color: #519872;
-    color: white;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
 }
+
+.img-title {
+    height: 8vh;
+    width: 200px;
+    color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    border: 1px solid yellow;
+}
+

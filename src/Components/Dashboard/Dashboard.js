@@ -5,7 +5,13 @@ import {Link} from 'react-router-dom'
 class Dashboard extends Component{
     constructor(){
         super();
-        
+        this.state = {
+            name: '', 
+            address: '',
+            city: '',
+            state: '',
+            zipcode: 0
+        }
     }
 
 
